@@ -8,9 +8,9 @@ concurrency:
 # Only run CI against the main branch or on PRs to the main branch.
 on:
   push:
-    branches: [main]
+    branches: [v0.3/main]
   pull_request:
-    branches: [main]
+    branches: [v0.3/main]
     types: [ready_for_review, opened, synchronize]
   workflow_dispatch:
 
